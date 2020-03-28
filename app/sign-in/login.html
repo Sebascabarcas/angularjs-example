@@ -1,0 +1,16 @@
+<md-content md-theme="docs-dark" layout="column" layout-padding>
+    <div layout="column" class="login-form">
+        <md-input-container>
+            <label>Email</label>
+            <input ng-model="user.email" type="email">
+        </md-input-container>
+
+        <md-input-container>
+            <label>Contraseña</label>
+            <input ng-model="user.password" type="password">
+        </md-input-container>
+        <div layout="row">
+            <md-button flex class="md-raised md-primary" ng-click="login()">LOGIN</md-button>
+        </div> 
+    </div>
+</md-content>
